@@ -20,3 +20,27 @@ Success.
 ## Now What? ##
 05/08/2025
 ### Goal: Execute a script remotely that runs a standard update within linux. ###
+
+Initially all I had intended to do was update an instance of kali using a script from my github, which is really silly honestly. BUT something really neat happened. 
+I haven't used my Kali instance for a few days, and when I would try and update my release, I would get an error. I found out that this was not just an error for me, But for every Kali user.
+NEAT!
+
+![Kali Keyrings](https://github.com/user-attachments/assets/c2cea449-a85a-4d1d-a035-5d0d8349c6f9)
+
+after I used the prompt 
+       
+       sudo wget https://archive.kali.org/archive-keyring.gpg -O /usr/share/keyrings/kali-archive-keyring.gpg
+    
+I continued on with my project. Anyway.
+I manually deleted my "Bash" Directory within my Downloads via
+
+      sudo rm Bash -r
+
+I then went back and grabbed the same folder I did before and copied it back into my downloads, and then 
+
+     bash update
+
+![Update](https://github.com/user-attachments/assets/c1c9d101-476e-41cc-aac6-7e9b07f62dc9)
+
+Success.
+
