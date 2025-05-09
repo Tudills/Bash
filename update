@@ -1,0 +1,4 @@
+#! /bin/bash
+echo "Initiate Update"
+
+sudo apt-get update
