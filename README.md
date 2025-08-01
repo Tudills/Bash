@@ -44,3 +44,6 @@ I then went back and grabbed the same folder I did before and copied it back int
 
 Success.
 
+---
+
+So now I have installed the kali-linux-everything package from kali.org, but i've also got a couple other tools that from what I understand will be useful in various CTF platforms. The install-packages.txt is everything that i have grabbed, and reinstall-my-apps.sh is a script that will reinstall them on a fresh kali install. Eventually I want to be able to prune applications that I don't end up using too much.
